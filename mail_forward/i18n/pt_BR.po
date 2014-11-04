@@ -35,7 +35,7 @@ msgstr "Anexos"
 #. module: mail_forward
 #: help:mail.compose.forward,move_attachments:0
 msgid "Attachments will be assigned to the chosen destination object and you will be able to pick them from its 'Attachments' button, but they will not be there for the current object if any. In any case you can always open it from the message itself."
-msgstr "Attachments will be assigned to the chosen destination object and you will be able to pick them from its 'Attachments' button, but they will not be there for the current object if any. In any case you can always open it from the message itself."
+msgstr "Anexos será atribuído ao objeto de destino escolhido e você será capaz de pegá-los de seu botão 'Anexos', mas eles não vão estar lá para o objeto atual, se houver. Em qualquer caso, você sempre pode abri-lo a partir da própria mensagem."
 
 #. module: mail_forward
 #: field:mail.compose.forward,author_id:0
@@ -45,17 +45,17 @@ msgstr "Autor"
 #. module: mail_forward
 #: help:mail.compose.forward,author_id:0
 msgid "Author of the message. If not set, email_from may hold an email address that did not match any partner."
-msgstr "Author of the message. If not set, email_from may hold an email address that did not match any partner."
+msgstr "Autor da mensagem. Se não for definido, email_from pode deter um endereço de e-mail que não seja um parceiro."
 
 #. module: mail_forward
 #: help:mail.compose.forward,body:0
 msgid "Automatically sanitized HTML contents"
-msgstr "Automatically sanitized HTML contents"
+msgstr "Higienizada automaticamente conteúdo HTML"
 
 #. module: mail_forward
 #: field:mail.compose.forward,child_ids:0
 msgid "Child Messages"
-msgstr "Child Messages"
+msgstr "Mensagens Relacionada"
 
 #. module: mail_forward
 #: selection:mail.compose.forward,type:0
@@ -75,12 +75,12 @@ msgstr "Conteúdo"
 #. module: mail_forward
 #: help:mail.compose.forward,starred:0
 msgid "Current user has a starred notification linked to this message"
-msgstr "Current user has a starred notification linked to this message"
+msgstr "O usuário atual tem uma notificação (com estrela) ligada a esta mensagem"
 
 #. module: mail_forward
 #: help:mail.compose.forward,to_read:0
 msgid "Current user has an unread notification linked to this message"
-msgstr "Current user has an unread notification linked to this message"
+msgstr "O usuário atual tem uma notificação não lida ligada a esta mensagem"
 
 #. module: mail_forward
 #: field:mail.compose.forward,date:0
@@ -107,7 +107,7 @@ msgstr "Email"
 #. module: mail_forward
 #: help:mail.compose.forward,email_from:0
 msgid "Email address of the sender. This field is set when no matching partner is found for incoming emails."
-msgstr "Email address of the sender. This field is set when no matching partner is found for incoming emails."
+msgstr "Endereço de email do remetente. Este campo é definido quando nenhum parceiro correspondente for encontrado para e-mails recebidos."
 
 #. module: mail_forward
 #: code:_description:0
@@ -155,120 +155,120 @@ msgstr "De:"
 #. module: mail_forward
 #: help:mail.compose.forward,parent_id:0
 msgid "Initial thread message."
-msgstr "Initial thread message."
+msgstr "Mensagens segmento inicial."
 
 #. module: mail_forward
 #: field:mail.compose.forward,record_name:0
 msgid "Message Record Name"
-msgstr "Message Record Name"
+msgstr "Nome da Mensagem Gravada"
 
 #. module: mail_forward
 #: help:mail.compose.forward,type:0
 msgid "Message type: email for email message, notification for system message, comment for other messages such as user replies"
-msgstr "Message type: email for email message, notification for system message, comment for other messages such as user replies"
+msgstr "Tipo de mensagem: e-mail para e-mail, a notificação de mensagem do sistema, recado para outras mensagens, como respostas de usuários"
 
 #. module: mail_forward
 #: help:mail.compose.forward,message_id:0
 msgid "Message unique identifier"
-msgstr "Message unique identifier"
+msgstr "Identificador da mensagem"
 
 #. module: mail_forward
 #: field:mail.compose.forward,message_id:0
 msgid "Message-Id"
-msgstr "Message-Id"
+msgstr "Id Messagem"
 
 #. module: mail_forward
 #: field:mail.compose.forward,move_attachments:0
 msgid "Move attachments"
-msgstr "Move attachments"
+msgstr "Mover Anexos"
 
 #. module: mail_forward
 #: help:mail.compose.forward,record_name:0
 msgid "Name get of the related document."
-msgstr "Name get of the related document."
+msgstr "Obter o nome do documento relacionado."
 
 #. module: mail_forward
 #: field:mail.compose.forward,notification_ids:0
 msgid "Notifications"
-msgstr "Notifications"
+msgstr "Nottificações"
 
 #. module: mail_forward
 #: field:mail.compose.forward,notified_partner_ids:0
 msgid "Notified partners"
-msgstr "Notified partners"
+msgstr "Parceiros Notificados"
 
 #. module: mail_forward
 #: help:mail.compose.forward,destination_object_id:0
 msgid "Object where the forwarded message will be attached"
-msgstr "Object where the forwarded message will be attached"
+msgstr "Objeto onde a mensagem encaminhada será anexada."
 
 #. module: mail_forward
 #: field:mail.compose.forward,parent_id:0
 msgid "Parent Message"
-msgstr "Parent Message"
+msgstr "Messagem Pai"
 
 #. module: mail_forward
 #: help:mail.compose.forward,notified_partner_ids:0
 msgid "Partners that have a notification pushing this message in their mailboxes"
-msgstr "Partners that have a notification pushing this message in their mailboxes"
+msgstr "Parceiros que têm uma notificação empurrando esta mensagem em suas caixas de correio"
 
 #. module: mail_forward
 #: field:mail.compose.forward,res_id:0
 msgid "Related Document ID"
-msgstr "Related Document ID"
+msgstr "ID do Documento Relacionado"
 
 #. module: mail_forward
 #: field:mail.compose.forward,model:0
 msgid "Related Document Model"
-msgstr "Related Document Model"
+msgstr "Modelo do documento relacionado"
 
 #. module: mail_forward
 #: field:mail.compose.forward,starred:0
 msgid "Starred"
-msgstr "Starred"
+msgstr "Marcado"
 
 #. module: mail_forward
 #: field:mail.compose.forward,subject:0
 msgid "Subject"
-msgstr "Subject"
+msgstr "Assunto"
 
 #. module: mail_forward
 #: field:mail.compose.forward,subtype_id:0
 msgid "Subtype"
-msgstr "Subtype"
+msgstr "Subtipo"
 
 #. module: mail_forward
 #: selection:mail.compose.forward,type:0
 msgid "System notification"
-msgstr "System notification"
+msgstr "Notificação do Sistema"
 
 #. module: mail_forward
 #: help:mail.compose.forward,notification_ids:0
 msgid "Technical field holding the message notifications. Use notified_partner_ids to access notified partners."
-msgstr "Technical field holding the message notifications. Use notified_partner_ids to access notified partners."
+msgstr "Domínio técnico segurando as notificações de mensagens. Use notified_partner_ids acessar parceiros notificados."
 
 #. module: mail_forward
 #: field:mail.compose.forward,template_id:0
 msgid "Template"
-msgstr "Template"
+msgstr "Modelo"
 
 #. module: mail_forward
 #: field:mail.compose.forward,to_read:0
 msgid "To read"
-msgstr "To read"
+msgstr "Para Ler"
 
 #. module: mail_forward
 #: field:mail.compose.forward,type:0
 msgid "Type"
-msgstr "Type"
+msgstr "Tipo"
 
 #. module: mail_forward
 #: help:mail.compose.forward,vote_user_ids:0
 msgid "Users that voted for this message"
-msgstr "Users that voted for this message"
+msgstr "Usuários que votaram para esta mensagem"
 
 #. module: mail_forward
 #: field:mail.compose.forward,vote_user_ids:0
 msgid "Votes"
-msgstr "Votes"
+msgstr "Votos"
 
