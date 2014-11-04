@@ -20,17 +20,17 @@ msgstr ""
 #: code:addons/mail_forward/static/src/js/mail_forward.js:37
 #, python-format
 msgid "(No subject)"
-msgstr "(No subject)"
+msgstr "(Sem Assunto)"
 
 #. module: mail_forward
 #: field:mail.compose.forward,partner_ids:0
 msgid "Additional contacts"
-msgstr "Additional contacts"
+msgstr "Contatos Adicionais"
 
 #. module: mail_forward
 #: field:mail.compose.forward,attachment_ids:0
 msgid "Attachments"
-msgstr "Attachments"
+msgstr "Anexos"
 
 #. module: mail_forward
 #: help:mail.compose.forward,move_attachments:0
@@ -40,7 +40,7 @@ msgstr "Attachments will be assigned to the chosen destination object and you wi
 #. module: mail_forward
 #: field:mail.compose.forward,author_id:0
 msgid "Author"
-msgstr "Author"
+msgstr "Autor"
 
 #. module: mail_forward
 #: help:mail.compose.forward,author_id:0
@@ -60,17 +60,17 @@ msgstr "Child Messages"
 #. module: mail_forward
 #: selection:mail.compose.forward,type:0
 msgid "Comment"
-msgstr "Comment"
+msgstr "Comentário"
 
 #. module: mail_forward
 #: field:mail.compose.forward,composition_mode:0
 msgid "Composition mode"
-msgstr "Composition mode"
+msgstr "Modo de Composição"
 
 #. module: mail_forward
 #: field:mail.compose.forward,body:0
 msgid "Contents"
-msgstr "Contents"
+msgstr "Conteúdo"
 
 #. module: mail_forward
 #: help:mail.compose.forward,starred:0
@@ -85,19 +85,19 @@ msgstr "Current user has an unread notification linked to this message"
 #. module: mail_forward
 #: field:mail.compose.forward,date:0
 msgid "Date"
-msgstr "Date"
+msgstr "Data"
 
 #. module: mail_forward
 #. openerp-web
 #: code:addons/mail_forward/static/src/js/mail_forward.js:49
 #, python-format
 msgid "Date:"
-msgstr "Date:"
+msgstr "Data:"
 
 #. module: mail_forward
 #: field:mail.compose.forward,destination_object_id:0
 msgid "Destination object"
-msgstr "Destination object"
+msgstr "Objeto de Destino"
 
 #. module: mail_forward
 #: selection:mail.compose.forward,type:0
@@ -119,38 +119,38 @@ msgstr "Assistente de composição de Email"
 #. module: mail_forward
 #: field:mail.compose.forward,filter_id:0
 msgid "Filters"
-msgstr "Filters"
+msgstr "Filtros"
 
 #. module: mail_forward
 #. openerp-web
 #: code:addons/mail_forward/static/src/xml/mail_forward.xml:25
 #, python-format
 msgid "Forward"
-msgstr "Forward"
+msgstr "Encaminhar"
 
 #. module: mail_forward
 #: model:ir.actions.act_window,name:mail_forward.compose_action
 msgid "Forward Email"
-msgstr "Forward Email"
+msgstr "Encaminhar email"
 
 #. module: mail_forward
 #. openerp-web
 #: code:addons/mail_forward/static/src/js/mail_forward.js:45
 #, python-format
 msgid "Forwarded message"
-msgstr "Forwarded message"
+msgstr "Mensagem encaminhada"
 
 #. module: mail_forward
 #: field:mail.compose.forward,email_from:0
 msgid "From"
-msgstr "From"
+msgstr "De"
 
 #. module: mail_forward
 #. openerp-web
 #: code:addons/mail_forward/static/src/js/mail_forward.js:47
 #, python-format
 msgid "From:"
-msgstr "From:"
+msgstr "De:"
 
 #. module: mail_forward
 #: help:mail.compose.forward,parent_id:0
